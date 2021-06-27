@@ -46,3 +46,14 @@ main {
     }
   }
 }
+
+@include respond-to(sm-down) {
+  .logo-wrapper {
+    top: 5px;
+    width: 100px;
+
+    img {
+      width: 70px;
+    }
+  }
+}
